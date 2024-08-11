@@ -3,43 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon - Glubus</title>
+    <title>Glubus</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #282c34;
-            color: #ffffff;
-            text-align: center;
+        /* Ensure the body and html cover the entire viewport */
+        html, body {
+            height: 100%;
             margin: 0;
             padding: 0;
+            overflow: hidden; /* Prevent scrollbars */
         }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin-bottom: 40px;
+        /* Make the iframe cover the entire screen */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block; /* Remove extra space around the iframe */
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Glubus is Coming Soon!</h1>
-        <p>We’re working hard to bring you something amazing. Stay tuned and we'll update you.</p>
-    </div>
+    <iframe src="https://turbowarp.org/1053727910/embed?interpolation&interpolate" frameborder="0"></iframe>
     <script>
-        // Optional JavaScript code can go here if needed
+        // No additional JavaScript needed for basic functionality
     </script>
 </body>
 </html>
